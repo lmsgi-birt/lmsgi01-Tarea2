@@ -1,0 +1,124 @@
+/*
+Autor: BirtLH
+Asignatura: LMGSI
+Unidad: UD 1
+Tarea: Tarea evaluativa 2 - Crear sitio web CV
+*/
+
+body {
+	background-color: #F0FFFF;
+	text-align: center;
+}
+
+/*
+	INDEX	
+*/
+
+/* Cajas con contenido principal */
+.caja_imagen {
+	display: inline-block;
+	width: 30%;
+	vertical-align: middle;
+}
+
+.caja_datos {
+	display: inline-block;
+	width: 20%;
+	text-align: left;
+	vertical-align: middle;
+}
+
+/* Imagen de perfil */
+img {
+	width: 60%;
+	border-radius: 999px; 		/* Para que la imagen se muestre en un círculo */
+	border-color: #F0FFFF;
+}
+
+/* links y listas */
+li {
+	line-height: 30px;
+}
+
+.enlaces {
+	line-height: 50px;
+	text-decoration: none;
+	color: black;
+	
+}
+/* Efecto al paasar por encima de los enlaces */
+.enlaces:hover {
+	text-decoration: solid;
+	font-size: 20px;
+}
+
+/* OTRAS PAGINAS */
+/* Enlace de volver a la Home */
+.volver {
+	display: block;
+	padding: 50px 0px 50px 0px;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.volver:hover {
+	font-size: 25px;
+	text-decoration: solid;
+}
+
+/* EXPERIENCIA LABORAL Y AFICIONES */
+/* Estilos de tablas */
+table {
+	border-bottom: solid 1px black;
+	padding-bottom: 35px;
+	margin: 0 auto;
+}
+
+.descripcion {
+	width: 500px;
+}
+
+td {
+	padding-top: 35px;
+}
+
+/* párrafos dentro de la tabla */
+td p {
+	text-align: left;
+}
+
+/* imágenes dentro de la tabla */
+td img {
+	width: 200px;
+	margin: 0;
+}
+
+/* EXPERIENCIA LABORAL */
+/* Clase para resaltar texto con la etiqueta span */
+.destacar {
+	text-decoration: underline;
+	color: gray;
+}
+
+/* EXPERIENCIA ACADEMICA */
+dl {
+	line-height: 2.5rem;
+	text-align: left;
+	padding-left: 5%;
+}
+
+dt {
+	color: #5F9EA0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+dd {
+	padding-bottom: 1.5rem;
+}
+
+
+
+
+
+	
